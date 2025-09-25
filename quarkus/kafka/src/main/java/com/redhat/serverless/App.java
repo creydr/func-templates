@@ -16,7 +16,7 @@ public class App {
         messageHandler = new Logger();
     }
 
-    @Incoming("my-topic")
+    @Incoming("my-channel")
     @Retry(delay = 10, maxRetries = 5)
     public void consume(ConsumerRecord<String, String> record) {
         String message = record.value();
