@@ -1,4 +1,4 @@
-package com.redhat.serverless.handler;
+package com.example.quarkus.kafka.handler;
 
 import org.slf4j.LoggerFactory;
 

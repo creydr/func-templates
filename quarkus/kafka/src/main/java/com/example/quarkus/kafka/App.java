@@ -1,7 +1,7 @@
-package com.redhat.serverless;
+package com.example.quarkus.kafka;
 
-import com.redhat.serverless.handler.Handler;
-import com.redhat.serverless.handler.Logger;
+import com.example.quarkus.kafka.handler.Handler;
+import com.example.quarkus.kafka.handler.Logger;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.eclipse.microprofile.faulttolerance.Retry;
 import org.eclipse.microprofile.reactive.messaging.Incoming;
